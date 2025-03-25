@@ -1,10 +1,22 @@
 
 function App() {
-  
-
   return (
-    <h1>coming soon</h1>
-  )
+  <main>
+    <div id="game-container">
+      <ol className="players">
+        <li className="player" >
+          <span className="player-name">Player1</span>
+          <span className="player-symbol">X</span>
+        </li>
+        <li className="player" >
+          <span className="player-name">Player2</span>
+          <span className="player-symbol">O</span>
+        </li>
+      </ol>
+      GAME BOARD
+    </div>
+  </main>
+  );
 }
 
 export default App
